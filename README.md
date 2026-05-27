@@ -110,7 +110,7 @@ python xai.py
 ## Result Screenshots
 
 ### Grad-CAM Visualization | LIME Explanation
-!(screenshots/result1.png)
+![result](ss.png)
 
 ---
 
