@@ -56,6 +56,52 @@ bone-fracture-detection/
 ```
 
 ---
+## Dataset
+
+This dataset is a curated collection of medical images of human bone fractures, categorized into 17 distinct fracture types. It has been compiled to support research in medical image classification, deep learning and clinical decision support systems. Fracture classification is an important aspect of orthopedic diagnostics, as different fracture types require different treatment approaches. By providing a diverse, well-labeled dataset, this collection can be used to train and benchmark machine learning models for automatic fracture detection and classification.
+
+The dataset contains 17 classes of bone fractures:
+1. Avulsion fracture
+2. Closed (simple) fracture
+3. Comminuted fracture
+4. Compression (crush) fracture
+5. Fracture dislocation
+6. Greenstick fracture
+7. Hairline fracture
+8. Impacted fracture
+9. Intra-articular fracture
+10. Longitudinal fracture
+11. Oblique fracture
+12. Open (compound) fracture
+13. Pathological fracture
+14. Segmental fracture
+15. Spiral fracture
+16. Stress fracture
+17. Transverse fracture
+
+Image Type: X-ray, radiology
+Format: JPG / PNG / WEBP
+Organization: Each fracture type is stored in its own folder
+Intended Use: Research, medical AI development, and educational purposes
+
+- Human Bone Fracture C17 Dataset: https://data.mendeley.com/datasets/2j8vvz3j6v/1?utm
+
+
+Example dataset structure:
+
+```bash
+dataset/
+│
+├── train/
+│   ├── fractured/
+│   └── normal/
+│
+├── test/
+│   ├── fractured/
+│   └── normal/
+```
+
+---
 
 ## Installation
 
