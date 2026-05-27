@@ -47,8 +47,85 @@ bone-fracture-detection/
 ├── models/
 ├── notebooks/
 ├── outputs/
+├── screenshots/
 ├── train.py
 ├── predict.py
 ├── xai.py
 ├── requirements.txt
 └── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/bone-fracture-detection.git
+cd bone-fracture-detection
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+Train the model:
+
+```bash
+python train.py
+```
+
+Run prediction:
+
+```bash
+python predict.py --image sample.jpg
+```
+
+Generate Explainable AI visualizations:
+
+```bash
+python xai.py
+```
+
+---
+
+## Workflow
+1. Data Collection
+2. Image Preprocessing
+3. CNN Model Training
+4. Fracture Detection & Classification
+5. Explainability using Grad-CAM & LIME
+6. Severity Estimation
+7. Treatment Recommendation
+
+---
+
+## Result Screenshots
+
+### Grad-CAM Visualization | LIME Explanation
+!(screenshots/result1.png)
+
+---
+
+## Future Scope
+- Real-time fracture detection
+- Multi-class fracture localization
+- Web and mobile deployment
+- Integration with hospital systems
+
+---
+
+## Contributors
+- Anshul Sharma
+
+---
+
+## License
+This project is developed for academic and research purposes.
